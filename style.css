@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 30px;
+}
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,4 +35,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.container-experience{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+   
+}
+.experience-blog{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#dupl{
+    border-image:linear-gradient(orange, tomato ) ;
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#isdb{
+    border-image:linear-gradient(orange, tomato ) ;
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer{
+    text-align: center;
 }
